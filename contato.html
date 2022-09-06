@@ -1,0 +1,64 @@
+<!doctype html>
+<html dir="ltr" lang="pt-BR">
+<head>
+   <meta charset="utf-8">
+   <title>Meu Primeiro Projeto</title>
+   <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<header id="topo">
+   <h1 class="textoVermelho center"> Livraria John & Paul</h1>
+   <h2 class="center">Livros novos e usados com os melhores preços para você</h2>
+</header>
+<nav id="menu">
+   <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="produtos.html">Livros</a></li>
+      <li><a href="#">Promoções</a></li>
+      <li><a href="sobre.html">John & Paul</a></li>
+      <li><a href="contato.html">Contate-nos</a></li>
+   </ul>
+</nav>
+<section>
+   <form>
+      <fieldset>
+         <legend>Contate-nos</legend>
+         <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome aqui">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="seu@email.com">
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel" id="tel" placeholder="(xx) 1234-5678" >
+            <label for="assunto">Assunto:</label>
+            <select name="assunto" id="assunto">
+               <option selected="selected">Selecione --</option>
+               <option>Trocas</option>
+               <option>Atendimento</option>
+               <option>Comercial</option>
+               <option>Outros</option>
+            </select>
+         </div>
+         <div>
+            <label for="msg">Mensagem:</label>
+            <textarea name="msg" id="msg" cols="20" rows="10"></textarea>
+         </div>
+      </fieldset>
+      <input type="checkbox" name="news" id="news">
+      <label for="news">Desejo receber informações sobre a Livraria John e Paul</label>
+      <hr>
+      <button type="submit">Enviar</button>
+      <button type="reset">Resetar</button>
+   </form>
+</section>
+<footer id="rodape">
+   <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="produtos.html">Livros</a></li>
+      <li><a href="#">Promoções</a></li>
+      <li><a href="sobre.html">John & Paul</a></li>
+      <li><a href="contato.html">Contate-nos</a></li>
+   </ul>
+</footer>
+</body>
+</html>
