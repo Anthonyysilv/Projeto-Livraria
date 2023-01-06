@@ -31,11 +31,20 @@ h1,h2,h3,h4,h5,h6{
 /*******************************************MENU*******************************************/
 #menu li{
    display:inline;
+   margin: 5px;
 }
 #menu ul{
    width: 80%;
    margin: 0 auto;
    padding-bottom: 20px;
+   text-align: center;
+   text-decoration: none;
+}
+#menu a:link{
+   color: #767873;
+}
+#menu a:hover{
+   color: #141F00;
 }
 /*******************************************DESTAQUES*******************************************/
 .destaques h2{
@@ -105,10 +114,9 @@ button{
    float: left;
    text-align: center;
 }
-#rodape ul{
-   padding: 20px 0;
-}
-#rodape li {display: inline;
+p{
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 /*******************************************MEDIA QUERY*******************************************/
 @media (min-width: 576px){
